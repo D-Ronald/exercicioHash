@@ -57,9 +57,6 @@ public class EstruturaHashTable implements EstruturaDeDados{
     @Override
     public boolean search(int chave) {
         // TODO se a posição estiver ocupada e valor é o mesmo (ou seja, tem que ser ambos), retorna true. Caso contrário, retorna true.
-        if(!isEmpty(tabela, hash(chave)) && tabela[hash(chave)] == chave){
-            return true;
-        }
         return false;
     }
 
